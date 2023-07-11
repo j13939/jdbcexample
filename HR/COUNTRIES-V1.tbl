@@ -6,6 +6,7 @@
 
 
 
+
 CREATE TABLE HR.COUNTRIES 
     ( 
      COUNTRY_ID CHAR (2 BYTE)  NOT NULL , 
