@@ -4,4 +4,4 @@ CREATE OR REPLACE TRIGGER HR.SECURE_EMPLOYEES
 BEGIN
   secure_dml;
 END secure_employees; 
-/
+/ 
