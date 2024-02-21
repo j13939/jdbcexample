@@ -1,4 +1,4 @@
--- comment for testing 12345
+-- comment for testing 123456
 
 CREATE OR REPLACE PROCEDURE HR.add_job_history
   (  p_emp_id          job_history.employee_id%type
