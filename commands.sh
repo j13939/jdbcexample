@@ -8,7 +8,7 @@ setOutput()
         echo "Key and value required on setOutput function call"
         exit 1
     fi
-    echo "${2}" > "/u01/flexdeploy/application/localhost/work/91798633/9412087/internal/outputs/${1}"
+    echo "${2}" > "/u01/flexdeploy/application/localhost/work/91798633/9412184/internal/outputs/${1}"
 }
 
 
@@ -45,7 +45,7 @@ setObjectResultStatusIgnore()
 
 if [ $OBJECT_TYPE_CODE = 'AOL' ]
 then
-cp $FD_TRANSFER_DIR/*.ldt $FD_TEMP_DIR/import/US
+cp $FD_TRANSFER_DIR/*.ldt $FD_TEMP_DIR/EBSCustomization/XXHR/import/US
 fi
 
 if [ $OBJECT_TYPE_CODE = 'OAF_MDS' ]
